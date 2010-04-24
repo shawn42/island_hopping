@@ -14,7 +14,7 @@ class IslandView < GraphicalActorView
     hw = (w * 0.5).floor
     hh = (h * 0.5).floor
 
-#    target.draw_box_s [x-hw,y+hh], [x+hw,3000], @color
+    target.draw_box_s [x-hw,y+hh], [x+hw,3000], @color
 #    bb = @actor.shape.bb
 #    target.draw_box [bb.l,bb.b],[bb.r,bb.t], @other_color
   end
