@@ -33,7 +33,7 @@ class Helicopter < Actor
       drop_off
     end
     @fuel = opts[:fuel]
-    @fuel ||= 10000
+    @fuel ||= 1000000
     @ocean = opts[:ocean]
   end
 
@@ -47,6 +47,10 @@ class Helicopter < Actor
   end
 
   def out_of_gas
+    crash_and_burn
+  end
+
+  def crash_and_burn
     puts "YOU CRASH!"
     remove_self 
   end
