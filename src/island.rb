@@ -8,8 +8,8 @@ class IslandView < GraphicalActorView
   end
   def draw(target,x_off,y_off)
     super
-    x = @actor.x
-    y = @actor.y
+    x = @actor.x+x_off
+    y = @actor.y+y_off
     w,h = *@actor.image.size
     hw = (w * 0.5).floor
     hh = (h * 0.5).floor

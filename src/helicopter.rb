@@ -1,28 +1,15 @@
 require 'actor'
 require 'graphical_actor_view'
 
-class HelicopterView < GraphicalActorView
-  def setup
-    @color = [255,12,12,140]
-  end
-
-  def draw(target,x_off,y_off)
-    super
-
-#    bb = @actor.shape.bb
-#    target.draw_box [bb.l,bb.b],[bb.r,bb.t], @color
-  end
-end
-
 class Helicopter < Actor
-  has_behaviors :updatable, :graphical, {:physical => {
+  has_behaviors :updatable, :graphical, {:layered => {:layer => 2}}, {:physical => {
       :shape => :poly,
       :moment => Float::INFINITY,
       :mass => 150,
       :friction => 0.9,
       :verts => [[-20,-20],[-20,20],[40,20],[40,-20]]}}
 
-  attr_accessor :fly_up, :fly_right, :fly_left, :fuel
+  attr_accessor :fly_up, :fly_right, :fly_left, :fuel, :ocean
 
   def setup
     input_manager.while_key_pressed :up, self, :fly_up
@@ -33,12 +20,16 @@ class Helicopter < Actor
       drop_off
     end
     @fuel = opts[:fuel]
-    @fuel ||= 1000000
-    @ocean = opts[:ocean]
+    @fuel ||= 100000
+  end
+
+  def drown?
+    @drown
   end
 
   def drown
     puts "YOU DROWN"
+    @drown = true
     remove_self 
   end
 
@@ -50,8 +41,13 @@ class Helicopter < Actor
     crash_and_burn
   end
 
+  def crashed?
+    @crashed
+  end
+
   def crash_and_burn
     puts "YOU CRASH!"
+    @crashed = true
     remove_self 
   end
 
@@ -68,7 +64,20 @@ class Helicopter < Actor
     @people_count = 0
   end
 
+  def adjust_view
+    viewport = stage.viewport
+    right_limit = 800 - viewport.x_offset 
+    if x > right_limit
+      viewport.scroll(right_limit-x,0)
+    end
+    left_limit = 200 - viewport.x_offset 
+    if x < left_limit
+      viewport.scroll(left_limit-x,0)
+    end
+  end
+
   def update(delta)
+    adjust_view
     if fuel?
       speed = delta 
       if fly_up
@@ -89,7 +98,7 @@ class Helicopter < Actor
     else
       out_of_gas
     end
-    drown if (y+h-20) > (stage.viewport.height-@ocean.level)
+    drown if @ocean && ((y+h-20) > (stage.viewport.height-@ocean.level))
   end
 
   def w; 40; end

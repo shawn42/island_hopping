@@ -2,35 +2,25 @@ require 'physical_stage'
 class DemoStage < PhysicalStage
   def setup
     super
+    @svg_doc = resource_manager.load_svg @opts[:file]
+    dynamic_actors = create_actors_from_svg @svg_doc
+
+    @helicopter = dynamic_actors[:helicopter]
+    @helicopter.ocean = spawn(:ocean)
+
     @score = spawn :score, :x=> 30, :y => 30
+    @stage_start_score = backstage[:score]
 
-    spawn :cloud, :x=>150, :y=>40
-    spawn :cloud, :x=>450, :y=>140
+    @helicopter.when :remove_me do
+      if @helicopter.crashed? || @helicopter.drown?
+        backstage[:score] = @stage_start_score
+        fire :restart_stage
+      end
+    end
 
-    @helicopter = spawn :helicopter, :x=>50, :y=>400, :ocean => spawn(:ocean)
     spawn :fuel_gauge, :x=>20, :y=>500, :helicopter => @helicopter
 
     setup_collisions
-
-    spawn :gas, :x =>60, :y => 655
-    island_at 50, 680
-    island_at 90, 680
-    island_at 130, 680
-
-    spawn :person, :x =>260, :y => 655
-    island_at 250, 680
-    island_at 290, 680
-    island_at 330, 680
-
-    spawn :person, :x =>460, :y => 695
-    island_at 450, 720
-    island_at 490, 720
-    island_at 530, 720
-    spawn :volcano, :x =>530, :y => 580
-    island_at 550, 700
-    island_at 590, 700
-    island_at 630, 700
-
     space.gravity = vec2(0,200)
   end
 
@@ -69,6 +59,12 @@ class DemoStage < PhysicalStage
         # TODO boom!
       end
     end
+
+    space.add_collision_func(:helicopter, :safe_zone) do |heli, safe_zone|
+      puts "YOU WIN"
+      fire :next_stage 
+    end
+
 
 
   end

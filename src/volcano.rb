@@ -29,5 +29,15 @@ class LavaRock < Actor
     x_dir = rand(10_000)-5_000
     move_vec = vec2(x_dir,-11500)
     physical.body.apply_impulse(move_vec, ZERO_VEC_2) 
+    @ttl = opts[:ttl]
+    @ttl ||= 3000
+    @lived_ms = 0
+  end
+
+  def update(time)
+    super
+    @lived_ms += time
+    remove_self if @lived_ms > @ttl
+
   end
 end
