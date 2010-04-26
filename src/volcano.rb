@@ -1,10 +1,10 @@
 require 'actor'
 
 class Volcano < Actor
-  has_behaviors :graphical, :updatable
+  has_behaviors :graphical, :updatable, :audible
 
   def setup
-    stage.add_timer :asplode, 1000 do 
+    stage.add_timer 'asplode#{self.object_id}', 1000 do 
       blow_top
     end
   end
@@ -12,6 +12,7 @@ class Volcano < Actor
   def blow_top
     w,h = *image.size
     hw = w*0.5
+    play_sound :lava
     spawn :lava_rock, :x => @x + hw, :y => @y
   end
 end

@@ -14,7 +14,10 @@ class DemoStage < PhysicalStage
     @helicopter.when :remove_me do
       if @helicopter.crashed? || @helicopter.drown?
         backstage[:score] = @stage_start_score
-        fire :restart_stage
+        spawn :label, :text => "YOU DIED", :size => 40, :x => 400, :y => 300
+        add_timer :restart, 2000 do
+          fire :restart_stage
+        end
       end
     end
 
@@ -22,6 +25,8 @@ class DemoStage < PhysicalStage
 
     setup_collisions
     space.gravity = vec2(0,200)
+
+    sound_manager.play_music :background
   end
 
   def setup_collisions
@@ -30,6 +35,7 @@ class DemoStage < PhysicalStage
       if person_obj.alive?
         heli_obj = director.find_physical_obj heli
         heli_obj.pickup person_obj
+        sound_manager.play_sound :pickup
         @score += 100
       end
     end
@@ -40,6 +46,7 @@ class DemoStage < PhysicalStage
         gas_obj.remove_self
         heli_obj = director.find_physical_obj heli
         heli_obj.fuel += 1000
+        sound_manager.play_sound :fuel
       end
     end
 
@@ -56,17 +63,23 @@ class DemoStage < PhysicalStage
       gas_obj = director.find_physical_obj gas
       if gas_obj.alive?
         gas_obj.remove_self
-        # TODO boom!
+        sound_manager.play_music :explosion
       end
     end
 
     space.add_collision_func(:helicopter, :safe_zone) do |heli, safe_zone|
-      puts "YOU WIN"
-      fire :next_stage 
+      unless @safe
+        @safe = true
+        puts "YOU ARE SAFE"
+        people_count = @helicopter.people_count
+        @people_count_label ||= spawn :label, :text => "YOU SAVED #{people_count}", :size => 40, :x => 300, :y => 300
+        sound_manager.play_sound :safe
+
+        add_timer :restart, 1000 do
+          fire :next_stage 
+        end
+      end
     end
-
-
-
   end
 
   def island_at(x,y)

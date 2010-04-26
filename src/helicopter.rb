@@ -2,25 +2,27 @@ require 'actor'
 require 'graphical_actor_view'
 
 class Helicopter < Actor
-  has_behaviors :updatable, :graphical, {:layered => {:layer => 2}}, {:physical => {
+  has_behaviors :audible, :updatable, :graphical, {:layered => {:layer => 2}}, {:physical => {
       :shape => :poly,
       :moment => Float::INFINITY,
       :mass => 150,
       :friction => 0.9,
       :verts => [[-20,-20],[-20,20],[40,20],[40,-20]]}}
 
-  attr_accessor :fly_up, :fly_right, :fly_left, :fuel, :ocean
+  attr_accessor :fly_up, :fly_right, :fly_left, :fuel, :ocean, :people_count
 
   def setup
     input_manager.while_key_pressed :up, self, :fly_up
     input_manager.while_key_pressed :left, self, :fly_left
     input_manager.while_key_pressed :right, self, :fly_right
+    play_sound :helicopter, :repeats => -1
+
     @people_count = 0
     input_manager.reg KeyDownEvent, :space do
       drop_off
     end
     @fuel = opts[:fuel]
-    @fuel ||= 100000
+    @fuel ||= 10000
   end
 
   def drown?
@@ -30,7 +32,14 @@ class Helicopter < Actor
   def drown
     puts "YOU DROWN"
     @drown = true
-    remove_self 
+    die
+  end
+
+  def die
+    return unless alive?
+    play_sound :explosion
+    stop_sound :helicopter
+    remove_self
   end
 
   def fuel?
@@ -48,7 +57,7 @@ class Helicopter < Actor
   def crash_and_burn
     puts "YOU CRASH!"
     @crashed = true
-    remove_self 
+    die
   end
 
   def pickup(obj)
@@ -98,7 +107,7 @@ class Helicopter < Actor
     else
       out_of_gas
     end
-    drown if @ocean && ((y+h-20) > (stage.viewport.height-@ocean.level))
+    drown if alive? && @ocean && ((y+h-20) > (stage.viewport.height-@ocean.level))
   end
 
   def w; 40; end
