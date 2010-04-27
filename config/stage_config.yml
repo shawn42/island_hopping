@@ -1,5 +1,6 @@
 :stages: 
   - :demo:
       :file: level_1
-  - :demo:
+  - :demo2:
+      :class: demo
       :file: level_2
