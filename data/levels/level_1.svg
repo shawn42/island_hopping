@@ -28,7 +28,7 @@
      inkscape:pageshadow="0"
      inkscape:zoom="0.98994949"
      inkscape:cx="263.98835"
-     inkscape:cy="400.445"
+     inkscape:cy="602.47551"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,34 +56,27 @@
     <image
        sodipodi:absref="/Users/shawn42/code/games/island_hopping/data/levels/../graphics/helicopter.png"
        xlink:href="../graphics/helicopter.png"
-       game:handle="helicopter"
-       game:class="helicopter"
-       width="80"
-       height="80"
-       id="image3167"
+       y="496.36215"
        x="64.285721"
-       y="496.36215" />
+       id="image3167"
+       height="80"
+       width="80"
+       game:class="helicopter"
+       game:handle="helicopter" />
     <image
        sodipodi:absref="/Users/shawn42/code/games/island_hopping/data/levels/../graphics/island.png"
        xlink:href="../graphics/island.png"
-       game:class="island"
-       width="40"
-       height="40"
-       id="image3229"
+       y="672.36218"
        x="60"
-       y="672.36218" />
+       id="image3229"
+       height="40"
+       width="40"
+       game:class="island" />
     <image
        y="672.36218"
        x="100"
        id="image3251"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU
-WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz
-Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt
-LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h
-k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9
-Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ
-wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9 Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg== "
        height="40"
        width="40"
        game:class="island" />
@@ -91,14 +84,7 @@ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
        y="672.36218"
        x="140"
        id="image3273"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU
-WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz
-Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt
-LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h
-k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9
-Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ
-wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9 Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg== "
        height="40"
        width="40"
        game:class="island" />
@@ -106,14 +92,7 @@ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
        y="612.36218"
        x="290"
        id="image3295"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU
-WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz
-Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt
-LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h
-k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9
-Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ
-wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9 Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg== "
        height="40"
        width="40"
        inkscape:transform-center-x="191.92898"
@@ -122,74 +101,52 @@ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
     <image
        sodipodi:absref="/Users/shawn42/code/games/island_hopping/data/levels/../graphics/person.png"
        xlink:href="../graphics/person.png"
-       game:class="person"
-       width="10"
-       height="10"
-       id="image3357"
+       y="654.82404"
        x="138.11688"
-       y="654.82404" />
+       id="image3357"
+       height="10"
+       width="10"
+       game:class="person" />
     <image
        y="667.36218"
        x="400"
        id="image3442"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU
-WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz
-Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt
-LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h
-k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9
-Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ
-wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9 Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg== "
        height="40"
        width="40"
        game:class="island" />
     <image
        sodipodi:absref="/Users/shawn42/code/games/island_hopping/data/levels/../graphics/volcano.png"
        xlink:href="../graphics/volcano.png"
-       game:class="volcano"
-       width="100"
-       height="100"
-       id="image3420"
+       y="550.79077"
        x="401.71426"
-       y="550.79077" />
+       id="image3420"
+       height="100"
+       width="100"
+       game:class="volcano" />
     <image
        sodipodi:absref="/Users/shawn42/code/games/island_hopping/data/levels/../graphics/gas.png"
        xlink:href="../graphics/gas.png"
-       game:class="gas"
-       width="10"
-       height="10"
-       id="image3505"
+       y="592.64789"
        x="291.28574"
-       y="592.64789" />
+       id="image3505"
+       height="10"
+       width="10"
+       game:class="gas" />
     <image
        sodipodi:absref="/Users/shawn42/code/games/island_hopping/data/levels/../graphics/cloud.png"
        xlink:href="../graphics/cloud.png"
-       game:class="cloud"
-       width="115"
-       height="115"
-       id="image3551"
+       y="236.29077"
        x="208.92856"
-       y="236.29077" />
+       id="image3551"
+       height="115"
+       width="115"
+       game:class="cloud" />
     <image
        y="282.00504"
        x="558.21429"
        id="image3573"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAABzCAYAAACrQz3mAAAABHNCSVQICAgIfAhkiAAAAttJREFU
-eJzt3VuSmzAQRuEmlSV4H97/MmYfswfyRM2Uw02gVnf/nO8xlQvWsQQWHjLN8zwbJPyJPgD0Q0wh
-xBRCTCHEFEJMIcQUQkwhxBRCTCHEFPI3+gB6+Po+t738fk3ORxKrZMyz8Z6mVEwi7isRk4jnhMf8
-HWrtnOYV8ujvrXh+DYm5NZDLry8D6RFSeZYP/2hydjAJ2W5ozMiQTzBkmVWJs/c6Mpxj3WemQsiv
-7/nwdWR4neFXs5m1Bvq8gBvNdWZmeLde8X5Nt4496nVPXt+brRqyp9EzlLsmjka/oYnpbGRQYg5w
-5mq4B2IO5B20ywUQFzttvC6MLn3OJF5OzcssIe/zGkPOmUE8ghJTCDED9Z6dxBRCTCHEFEJMIcQM
-1HsnqDlmhu+6YB0zM1DvuynETKBXVPZmE7k7tk0xCenvzhifjknIca6O9e7NaQLGav3ksDkzCVkP
-V7OJtU6o1ZjMyjxaWjAzhRBTCDELOLvUrsZkMz2fM0GZmUKIKYSYhRwttZsxOW/Ws/uzJntB2VjI
-h2W2mL1JREwhxCxoa3YSU8jlmFzt5sPMFHIrJrMzl9szk6D3vF9TtzHs9rg1NhGuu/I487U/4/bs
-vAWRj23NzK2x2/r9PKI0sW5ftUQ9xBRCTCHEFEJMIcQM1nPThZiBwh9Q0YrtvnGGzEyC/s9jTIYt
-swT94TUWQ8+ZBPUdA/eN9i1P24Af8UYOi2lWO2jGVSb0o8nVG7PRAxn9729JcQvs6D9SyzR4mY7l
-U4qYZrkHaZH9GNkBOil7SDNinlIhpFnhmKMGuEpIs8IxzfwHulJIs+IxzfwGvFpIs0RXs1lUjLgI
-3QHq6e5uUuWIi/LLbA8KIc2EYqoEuUNmmV20LLdqbwC5mGbXfuhGgWTMxWdU1YgLmXPmEfWQZuIz
-82keMzOfgJhCiCmEmEKIKYSYQogphJhCiCmEmEKIKYSYQogphJhCiCnkHybKBylN3X9HAAAAAElF
-TkSuQmCC
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAABzCAYAAACrQz3mAAAABHNCSVQICAgIfAhkiAAAAttJREFU eJzt3VuSmzAQRuEmlSV4H97/MmYfswfyRM2Uw02gVnf/nO8xlQvWsQQWHjLN8zwbJPyJPgD0Q0wh xBRCTCHEFEJMIcQUQkwhxBRCTCHEFPI3+gB6+Po+t738fk3ORxKrZMyz8Z6mVEwi7isRk4jnhMf8 HWrtnOYV8ujvrXh+DYm5NZDLry8D6RFSeZYP/2hydjAJ2W5ozMiQTzBkmVWJs/c6Mpxj3WemQsiv 7/nwdWR4neFXs5m1Bvq8gBvNdWZmeLde8X5Nt4496nVPXt+brRqyp9EzlLsmjka/oYnpbGRQYg5w 5mq4B2IO5B20ywUQFzttvC6MLn3OJF5OzcssIe/zGkPOmUE8ghJTCDED9Z6dxBRCTCHEFEJMIcQM 1HsnqDlmhu+6YB0zM1DvuynETKBXVPZmE7k7tk0xCenvzhifjknIca6O9e7NaQLGav3ksDkzCVkP V7OJtU6o1ZjMyjxaWjAzhRBTCDELOLvUrsZkMz2fM0GZmUKIKYSYhRwttZsxOW/Ws/uzJntB2VjI h2W2mL1JREwhxCxoa3YSU8jlmFzt5sPMFHIrJrMzl9szk6D3vF9TtzHs9rg1NhGuu/I487U/4/bs vAWRj23NzK2x2/r9PKI0sW5ftUQ9xBRCTCHEFEJMIcQM1nPThZiBwh9Q0YrtvnGGzEyC/s9jTIYt swT94TUWQ8+ZBPUdA/eN9i1P24Af8UYOi2lWO2jGVSb0o8nVG7PRAxn9729JcQvs6D9SyzR4mY7l U4qYZrkHaZH9GNkBOil7SDNinlIhpFnhmKMGuEpIs8IxzfwHulJIs+IxzfwGvFpIs0RXs1lUjLgI 3QHq6e5uUuWIi/LLbA8KIc2EYqoEuUNmmV20LLdqbwC5mGbXfuhGgWTMxWdU1YgLmXPmEfWQZuIz 82keMzOfgJhCiCmEmEKIKYSYQogphJhCiCmEmEKIKYSYQogphJhCiCnkHybKBylN3X9HAAAAAElF TkSuQmCC "
        height="115"
        width="115"
        game:class="cloud" />
@@ -197,14 +154,7 @@ TkSuQmCC
        y="667.36218"
        x="440"
        id="image3595"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU
-WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz
-Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt
-LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h
-k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9
-Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ
-wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9 Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg== "
        height="40"
        width="40"
        game:class="island" />
@@ -212,14 +162,7 @@ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
        y="667.36218"
        x="480"
        id="image3617"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU
-WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz
-Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt
-LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h
-k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9
-Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ
-wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9 Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg== "
        height="40"
        width="40"
        game:class="island" />
@@ -227,14 +170,7 @@ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
        y="562.36218"
        x="980"
        id="image3663"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU
-WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz
-Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt
-LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h
-k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9
-Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ
-wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9 Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg== "
        height="40"
        width="40"
        game:class="island"
@@ -243,14 +179,7 @@ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
        y="562.36218"
        x="940"
        id="image3685"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU
-WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz
-Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt
-LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h
-k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9
-Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ
-wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9 Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg== "
        height="40"
        width="40"
        game:class="island"
@@ -267,22 +196,7 @@ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
        y="192.00502"
        x="853.92859"
        id="image3769"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAABzCAYAAACrQz3mAAAABHNCSVQICAgIfAhkiAAAAttJREFU
-eJzt3VuSmzAQRuEmlSV4H97/MmYfswfyRM2Uw02gVnf/nO8xlQvWsQQWHjLN8zwbJPyJPgD0Q0wh
-xBRCTCHEFEJMIcQUQkwhxBRCTCHEFPI3+gB6+Po+t738fk3ORxKrZMyz8Z6mVEwi7isRk4jnhMf8
-HWrtnOYV8ujvrXh+DYm5NZDLry8D6RFSeZYP/2hydjAJ2W5ozMiQTzBkmVWJs/c6Mpxj3WemQsiv
-7/nwdWR4neFXs5m1Bvq8gBvNdWZmeLde8X5Nt4496nVPXt+brRqyp9EzlLsmjka/oYnpbGRQYg5w
-5mq4B2IO5B20ywUQFzttvC6MLn3OJF5OzcssIe/zGkPOmUE8ghJTCDED9Z6dxBRCTCHEFEJMIcQM
-1HsnqDlmhu+6YB0zM1DvuynETKBXVPZmE7k7tk0xCenvzhifjknIca6O9e7NaQLGav3ksDkzCVkP
-V7OJtU6o1ZjMyjxaWjAzhRBTCDELOLvUrsZkMz2fM0GZmUKIKYSYhRwttZsxOW/Ws/uzJntB2VjI
-h2W2mL1JREwhxCxoa3YSU8jlmFzt5sPMFHIrJrMzl9szk6D3vF9TtzHs9rg1NhGuu/I487U/4/bs
-vAWRj23NzK2x2/r9PKI0sW5ftUQ9xBRCTCHEFEJMIcQM1nPThZiBwh9Q0YrtvnGGzEyC/s9jTIYt
-swT94TUWQ8+ZBPUdA/eN9i1P24Af8UYOi2lWO2jGVSb0o8nVG7PRAxn9729JcQvs6D9SyzR4mY7l
-U4qYZrkHaZH9GNkBOil7SDNinlIhpFnhmKMGuEpIs8IxzfwHulJIs+IxzfwGvFpIs0RXs1lUjLgI
-3QHq6e5uUuWIi/LLbA8KIc2EYqoEuUNmmV20LLdqbwC5mGbXfuhGgWTMxWdU1YgLmXPmEfWQZuIz
-82keMzOfgJhCiCmEmEKIKYSYQogphJhCiCmEmEKIKYSYQogphJhCiCnkHybKBylN3X9HAAAAAElF
-TkSuQmCC
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAABzCAYAAACrQz3mAAAABHNCSVQICAgIfAhkiAAAAttJREFU eJzt3VuSmzAQRuEmlSV4H97/MmYfswfyRM2Uw02gVnf/nO8xlQvWsQQWHjLN8zwbJPyJPgD0Q0wh xBRCTCHEFEJMIcQUQkwhxBRCTCHEFPI3+gB6+Po+t738fk3ORxKrZMyz8Z6mVEwi7isRk4jnhMf8 HWrtnOYV8ujvrXh+DYm5NZDLry8D6RFSeZYP/2hydjAJ2W5ozMiQTzBkmVWJs/c6Mpxj3WemQsiv 7/nwdWR4neFXs5m1Bvq8gBvNdWZmeLde8X5Nt4496nVPXt+brRqyp9EzlLsmjka/oYnpbGRQYg5w 5mq4B2IO5B20ywUQFzttvC6MLn3OJF5OzcssIe/zGkPOmUE8ghJTCDED9Z6dxBRCTCHEFEJMIcQM 1HsnqDlmhu+6YB0zM1DvuynETKBXVPZmE7k7tk0xCenvzhifjknIca6O9e7NaQLGav3ksDkzCVkP V7OJtU6o1ZjMyjxaWjAzhRBTCDELOLvUrsZkMz2fM0GZmUKIKYSYhRwttZsxOW/Ws/uzJntB2VjI h2W2mL1JREwhxCxoa3YSU8jlmFzt5sPMFHIrJrMzl9szk6D3vF9TtzHs9rg1NhGuu/I487U/4/bs vAWRj23NzK2x2/r9PKI0sW5ftUQ9xBRCTCHEFEJMIcQM1nPThZiBwh9Q0YrtvnGGzEyC/s9jTIYt swT94TUWQ8+ZBPUdA/eN9i1P24Af8UYOi2lWO2jGVSb0o8nVG7PRAxn9729JcQvs6D9SyzR4mY7l U4qYZrkHaZH9GNkBOil7SDNinlIhpFnhmKMGuEpIs8IxzfwHulJIs+IxzfwGvFpIs0RXs1lUjLgI 3QHq6e5uUuWIi/LLbA8KIc2EYqoEuUNmmV20LLdqbwC5mGbXfuhGgWTMxWdU1YgLmXPmEfWQZuIz 82keMzOfgJhCiCmEmEKIKYSYQogphJhCiCmEmEKIKYSYQogphJhCiCnkHybKBylN3X9HAAAAAElF TkSuQmCC "
        height="115"
        width="115"
        game:class="cloud" />
@@ -290,14 +204,7 @@ TkSuQmCC
        y="626.64789"
        x="688.57141"
        id="image3791"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU
-WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz
-Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt
-LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h
-k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9
-Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ
-wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAASZJREFU WIXtlk0SwiAMhSmydtG9jlfx8p7AAzgewBPo6EZHyhB4SfipjG9nSZMv8FKctkfzNCuW7Q2Qk3Oz Mffb+8f8Xfg8C5+H67E1aWwszqVeTCX0G8sJaYLKSR4xkhQtzFGYc/UeHAMQ9VoNQYASr3GbouJt LkAqblNUvM0F9NYYQ9JTTQElPhcDSopJfE4C5gBaDZXqLm6h/5BoNZ3Ou9//y3+9PGpzkPUgwP1h k0xSWn69BSCnaAyaUiwvWmsByCmKglB50VMpOsXaBmPvswFbDwwbENklpAmRB0spbCIGg9qBBSg9 Xo03WZ+ZXKES/gxzjHHV1RKy410BEW82GRKNWIDam0Ki6kec2nWVBznHmYpN7Tq15ucb6zPTbUjQ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg== "
        height="40"
        width="40"
        game:class="island" />
@@ -305,14 +212,19 @@ wj2G5AWSL2+UwXiRwAAAAABJRU5ErkJggg==
        y="602.50507"
        x="688.42859"
        id="image3813"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAAGpJREFU
-GJV1j8EVQDAQRP94WnGiC01QjJNiVKELJ4oZFwlJZG77ZvbvjmwbQBK5HguAtmbki02BqSgGbUeK
-pIQOINuWRLcdiXFOfUm0nRjXPNRPf0M5PZ4Owzq+TZc9/bEg5oFfYmj71/oGfvYy9gDSBSwAAAAA
-SUVORK5CYII=
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAAGpJREFU GJV1j8EVQDAQRP94WnGiC01QjJNiVKELJ4oZFwlJZG77ZvbvjmwbQBK5HguAtmbki02BqSgGbUeK pIQOINuWRLcdiXFOfUm0nRjXPNRPf0M5PZ4Owzq+TZc9/bEg5oFfYmj71/oGfvYy9gDSBSwAAAAA SUVORK5CYII= "
        height="10"
        width="10"
        game:class="person" />
+    <image
+       sodipodi:absref="/Users/shawn42/code/games/island_hopping/data/levels/../graphics/storm.png"
+       xlink:href="../graphics/storm.png"
+       game:class="storm"
+       width="115"
+       height="115"
+       id="image2999"
+       x="328.37827"
+       y="244.31883" />
   </g>
   <g
      inkscape:groupmode="layer"

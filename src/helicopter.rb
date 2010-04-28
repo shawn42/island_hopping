@@ -91,7 +91,7 @@ class Helicopter < Actor
       speed = delta 
       if fly_up
         @fuel -= speed
-        move_vec = vec2(0,-100) * speed
+        move_vec = vec2(0,-100) * speed * 0.7
         physical.body.apply_impulse(move_vec, ZERO_VEC_2) 
       end
       if fly_right
