@@ -2,6 +2,7 @@ require 'physical_stage'
 class DemoStage < PhysicalStage
   def setup
     super
+    setup_pause
     @svg_doc = resource_manager.load_svg @opts[:file]
     dynamic_actors = create_actors_from_svg @svg_doc
 
@@ -27,6 +28,28 @@ class DemoStage < PhysicalStage
     space.gravity = vec2(0,200)
 
     sound_manager.play_music :background
+  end
+
+  def setup_pause
+    input_manager.reg KeyPressed, :p do
+      pause
+    end
+
+    on_unpause do
+      sound_manager.play_sound :pause
+      sound_manager.play_sound :helicopter, :repeats => -1
+      @pause.remove_self
+    end
+
+    on_pause do
+      sound_manager.play_sound :pause
+      sound_manager.stop_sound :helicopter
+
+      @pause = spawn :label, :text => "pause", :x => 280, :y => 300, :size => 20
+      input_manager.reg KeyPressed, :p do
+        unpause
+      end
+    end
   end
 
   def setup_collisions
